@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Acai Berry Powder - Superfood for Radiant Beauty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .smooth-transition {
+            transition: all 0.3s ease;
+        }
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        @media (min-width: 768px) {
+            .product-gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Sticky Header with Shop Button -->
+    <header class="sticky-header bg-white shadow-md py-4 px-6">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold text-purple-700">
+                <i class="fas fa-leaf mr-2"></i> PureAcai
+            </div>
+            <a href="#buy-now" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full smooth-transition pulse-animation">
+                SHOP NOW <i class="fas fa-shopping-cart ml-2"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-16 pb-24 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Organic Acai Berry Powder</h1>
+                <p class="text-xl mb-6">The Amazonian Secret for Radiant Skin & Timeless Beauty</p>
+                <div class="flex items-center mb-6">
+                    <div class="flex mr-4">
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                    </div>
+                    <span>4.9/5 (2,458 Reviews)</span>
+                </div>
+                <a href="#buy-now" class="bg-white text-purple-700 font-bold py-3 px-8 rounded-full inline-block pulse-animation hover:bg-purple-100 smooth-transition">
+                    DISCOVER YOUR GLOW <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7r98o-lz7i65cs5h8a87.webp" alt="Organic Acai Berry Powder" class="rounded-lg shadow-2xl max-w-xs md:max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Beauty Benefits Section -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Transform Your Beauty Naturally</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Glowing Complexion</h3>
+                <p class="text-gray-600">Antioxidants combat free radicals to reveal your skin's natural radiance and even tone.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-hourglass-half"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Age-Defying Effects</h3>
+                <p class="text-gray-600">Powerful anthocyanins reduce visible signs of aging by protecting collagen.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Luxurious Hair</h3>
+                <p class="text-gray-600">Omega fatty acids nourish from within for stronger, shinier, more vibrant hair.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Skin Detox</h3>
+                <p class="text-gray-600">Purifies skin by eliminating toxins that cause dullness and breakouts.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Sun Defense</h3>
+                <p class="text-gray-600">Natural compounds help protect against environmental damage and UV stress.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md benefit-card smooth-transition">
+                <div class="text-purple-600 mb-4 text-4xl">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-800">Deep Hydration</h3>
+                <p class="text-gray-600">Maintains optimal moisture levels for plump, dewy skin all day long.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section class="py-12 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Premium Beauty Elixir</h2>
+        <div class="product-gallery">
+            <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7r98y-lvlmsi7324hc69.webp" alt="Acai Powder Packaging" class="h-64 object-contain">
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7r98o-lz7i65cs5h8a87.webp" alt="Acai Powder Scoop" class="h-64 object-contain">
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md flex items-center justify-center md:col-span-1">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7r98q-lzpmdl7cr9tmdc.webp" alt="Acai Powder Close-up" class="h-64 object-contain">
+            </div>
+        </div>
+    </section>
+
+    <!-- Beauty Rituals Section -->
+    <section class="py-16 px-4 bg-purple-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Beauty Rituals with Acai</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <i class="fas fa-mask-face text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Glow-Boosting Mask</h3>
+                    <p class="text-gray-600">Mix with honey and aloe vera for an illuminating treatment that brightens skin tone.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <i class="fas fa-glass-whiskey text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Beauty Elixir Drink</h3>
+                    <p class="text-gray-600">Blend with coconut water and collagen for a hydrating, anti-aging beverage.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <i class="fas fa-hand-sparkles text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Body Polish</h3>
+                    <p class="text-gray-600">Combine with sea salt and jojoba oil for silky smooth, exfoliated skin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Now Section -->
+    <section id="buy-now" class="py-16 px-4 bg-gray-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Begin Your Beauty Transformation</h2>
+            <p class="text-xl mb-8 text-gray-600">Premium 100% organic Acai Berry Powder for radiant skin and hair</p>
+            
+            <div class="bg-white rounded-xl shadow-lg p-8 max-w-2xl mx-auto">
+                <div class="flex justify-center mb-6">
+                    <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7r98o-lz7i65cs5h8a87.webp" alt="Acai Berry Powder" class="rounded-lg h-48">
+                </div>
+                
+                <div class="flex justify-center mb-6">
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                        <i class="fas fa-star text-yellow-300"></i>
+                    </div>
+                </div>
+                
+                <p class="text-2xl font-bold text-purple-600 mb-6">SPECIAL OFFER: 20% OFF</p>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                    <a href="https://amzn.to/44VQMNs" target="_blank" class="bg-gray-800 text-white py-3 px-4 rounded-lg hover:bg-gray-700 smooth-transition">
+                        <i class="fab fa-amazon mr-2"></i> Amazon
+                    </a>
+                    <a href="https://s.shopee.ph/2B2kUOo4Y7" target="_blank" class="bg-orange-500 text-white py-3 px-4 rounded-lg hover:bg-orange-600 smooth-transition">
+                        <i class="fas fa-shopping-bag mr-2"></i> Shopee
+                    </a>
+                    <a href="https://s.lazada.com.ph/s.spXQ7" target="_blank" class="bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 smooth-transition">
+                        <i class="fas fa-shopping-cart mr-2"></i> Lazada
+                    </a>
+                    <a href="https://vt.tiktok.com/ZSk8hpACV/" target="_blank" class="bg-black text-white py-3 px-4 rounded-lg hover:bg-gray-800 smooth-transition">
+                        <i class="fab fa-tiktok mr-2"></i> TikTok
+                    </a>
+                </div>
+                
+                <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-left">
+                    <div class="flex items-start">
+                        <i class="fas fa-shipping-fast text-yellow-500 mt-1 mr-3"></i>
+                        <div>
+                            <p class="font-bold text-yellow-700">FREE SHIPPING</p>
+                            <p class="text-sm text-yellow-600">On all orders over ₱500. Delivered within 3-5 business days.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Beauty Questions Answered</h2>
+        
+        <div class="space-y-4">
+            <div class="border-b border-gray-200 pb-4">
+                <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-purple-700">
+                    <span>When will I see beauty improvements?</span>
+                    <i class="fas fa-plus"></i>
+                </button>
+                <div class="faq-content hidden mt-2 text-gray-600">
+                    Most users notice enhanced skin radiance within 2-3 weeks. For full transformative results, we recommend daily use for 4-6 weeks.
+                </div>
+            </div>
+            
+            <div class="border-b border-gray-200 pb-4">
+                <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-purple-700">
+                    <span>Can I use this in my skincare routine?</span>
+                    <i class="fas fa-plus"></i>
+                </button>
+                <div class="faq-content hidden mt-2 text-gray-600">
+                    Absolutely! Mix with your favorite carrier oils or masks. The antioxidants work topically to brighten and rejuvenate skin.
+                </div>
+            </div>
+            
+            <div class="border-b border-gray-200 pb-4">
+                <button class="faq-toggle flex justify-between items-center w-full text-left font-bold text-purple-700">
+                    <span>Does it help with dark spots?</span>
+                    <i class="fas fa-plus"></i>
+                </button>
+                <div class="faq-content hidden mt-2 text-gray-600">
+                    Yes, the vitamin C and antioxidants in acai help fade hyperpigmentation and even out skin tone with consistent use.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                if (content.classList.contains('hidden')) {
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                } else {
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                }
+            });
+        });
+        
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
